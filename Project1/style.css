@@ -1,0 +1,17 @@
+.imgs {
+width: 300px;
+}
+
+.logo-cafeteria {
+    width: 25px;
+}
+
+.container-img{
+    width: 50%;
+    display: inline-block;
+}
+
+.text-container{
+    width: 50%;
+    display: inline-block;
+}
