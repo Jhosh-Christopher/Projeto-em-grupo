@@ -1,3 +1,17 @@
+/* 
+#A9907E -marrom 1
+#F3DEBA- bege 2
+#C96868- bordô
+#675D50 - marrom 4 */
+.imagens{
+    width: 300px;
+    border-radius: 10px;
+    border: solid 5px #C96868;
+}
+body{
+    background-color: #d6c3a3;
+
+}
 .cabecalho{
     display: flex;
     justify-content: space-between;
@@ -30,4 +44,15 @@
     text-decoration: none;
     color: #F3DEBA;
     font-size: 20px;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 25px;
+}
+.texto-home{
+    width: 300px;
 }
