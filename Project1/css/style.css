@@ -9,6 +9,7 @@
 .logo-cafeteria {
     width: 70px;
     margin-left: 10px;
+    border-radius: 10px;   
 }
 
 .menu-container {
@@ -21,10 +22,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 15px;
     gap: 25px;
 }
 
 .link {
     text-decoration: none;
-    color: #F3DEBA
+    color: #F3DEBA;
+    font-size: 20px;
 }
