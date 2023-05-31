@@ -4,9 +4,9 @@
 #C96868- bordô
 #675D50 - marrom 4 */
 .imagens{
-    width: 400px;
+    width: 450px;
     border-radius: 10px;
-    border: solid 5px #8f5e2a;
+    border: solid 5px #F3DEBA;
 }
 body{
     background-color: #734046;
@@ -14,7 +14,7 @@ body{
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 15px 10px 15px;
     background-color: #321F28;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -41,20 +41,22 @@ body{
 }
 
 .link {
+    font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
     color: #F3DEBA;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-.container1{
+.container-text{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 60px;
     gap: 25px;
 }
-.texto-home{
+.text-home{
+    font-family: 'Architects Daughter', cursive;
     width: 420px;
-    color: #E79E4F;
-    font-size: 20px;
+    color: #F3DEBA;
+    font-size: 22px;
 }
