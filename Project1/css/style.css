@@ -1,0 +1,172 @@
+/* 
+#A9907E -marrom 1
+#F3DEBA- bege 2
+#C96868- bordô
+#675D50 - marrom 4 */
+
+body {
+    background-color: #734046;
+}
+
+footer {
+    background-color: #F3DEBA;
+    padding: 20px;
+    text-align: center;
+
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F3DEBA;
+    display: block;
+    margin-bottom: 5px;
+}
+
+span {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    color: #C96868;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc80;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #321F28;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imagens {
+    width: 450px;
+    border-radius: 10px;
+    border: solid 5px #F3DEBA;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px 10px 15px;
+    background-color: #321F28;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.logo-cafeteria {
+    height: 80px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    gap: 25px;
+}
+
+.link {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: #F3DEBA;
+    font-size: 25px;
+}
+
+.container-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 25px;
+}
+
+.text-home {
+    font-family: 'Architects Daughter', cursive;
+    width: 420px;
+    color: #F3DEBA;
+    font-size: 22px;
+}
+
+.rodape {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.pfooter {
+    color: #C96868;
+    font-size: 14px;
+}
+
+/* css formulário */
+.form-contato {
+    background-color: rgba(243, 222, 186, 0.361);
+    /* Defina o valor de transparência entre 0 (totalmente transparente) e 1 (totalmente opaco) */
+    background-image: url(https://www.imagensempng.com.br/wp-content/uploads/2021/09/02-21.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-text {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-right: 10px;
+
+}
+
+a:hover {
+
+    color: #C96868;
+    transition: 0.3s all;
+
+    @media screen and (max-width:600px) {
+        .cabeçalho-link {
+            display: none;
+        }
+
+    }
+}
+
+button:hover {
+    background-color: #C96868;
+    color: black;
+    transition: 0.3s all;
+}
+
+#contato_title {
+    color: #321F28;
+}
