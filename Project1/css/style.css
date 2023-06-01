@@ -3,6 +3,7 @@
 #F3DEBA- bege 2
 #C96868- bordô
 #675D50 - marrom 4 */
+<<<<<<< HEAD
 
 body {
     background-color: #734046;
@@ -55,12 +56,21 @@ button {
     cursor: pointer;
 }
 
+=======
+>>>>>>> 275e82e3b4f6685129e594a3ce4bc3ee344e182b
 .imagens {
     width: 450px;
     border-radius: 10px;
     border: solid 5px #F3DEBA;
 }
 
+<<<<<<< HEAD
+=======
+body {
+    background-color: #734046;
+}
+
+>>>>>>> 275e82e3b4f6685129e594a3ce4bc3ee344e182b
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -112,6 +122,16 @@ button {
     font-size: 22px;
 }
 
+<<<<<<< HEAD
+=======
+footer {
+    background-color: #F3DEBA;
+    padding: 20px;
+    text-align: center;
+
+}
+
+>>>>>>> 275e82e3b4f6685129e594a3ce4bc3ee344e182b
 .rodape {
     max-width: 960px;
     margin: 0 auto;
@@ -140,12 +160,48 @@ button {
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .form-text {
     display: flex;
     justify-content: center;
     padding: 20px;
     padding-right: 10px;
 
+=======
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F3DEBA;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc80;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #321F28;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+>>>>>>> 275e82e3b4f6685129e594a3ce4bc3ee344e182b
 }
 
 a:hover {
@@ -167,6 +223,21 @@ button:hover {
     transition: 0.3s all;
 }
 
+<<<<<<< HEAD
 #contato_title {
     color: #321F28;
+=======
+span {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    color: #C96868;
+}
+
+.form-text {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-right: 10px;
+
+>>>>>>> 275e82e3b4f6685129e594a3ce4bc3ee344e182b
 }
