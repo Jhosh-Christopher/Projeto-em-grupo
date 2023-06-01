@@ -84,7 +84,6 @@ footer {
 /* css formulário */
 .form-contato {
     background-color: #f3deba7d;
-    background-image: url(https://www.imagensempng.com.br/wp-content/uploads/2021/09/02-21.png);
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -152,6 +151,16 @@ button:hover {
     transition: 0.3s all;
 }
 
-.contato{
-    background-image:url(https://yellowbirdcoffee.com.br/qual-a-diferenca-entre-cafe-tradicional-cafe-gourmet-e-cafe-especial/)
+span{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    color: #C96868;
+}
+
+.form-text {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-right: 10px;
+    
 }
