@@ -1,10 +1,3 @@
-/* 
-#A9907E -marrom 1
-#F3DEBA- bege 2
-#C96868- bordô
-#675D50 - marrom 4 */
-/* <<<<<<< HEAD */
-
 body {
     background-color: #734046;
 }
@@ -60,10 +53,6 @@ button {
     width: 450px;
     border-radius: 10px;
     border: solid 5px #F3DEBA;
-}
-
-body {
-    background-color: #734046;
 }
 
 .cabecalho {
@@ -137,7 +126,6 @@ footer {
 /* css formulário */
 .form-contato {
     background-color: rgba(243, 222, 186, 0.361);
-    /* Defina o valor de transparência entre 0 (totalmente transparente) e 1 (totalmente opaco) */
     background-image: url(https://www.imagensempng.com.br/wp-content/uploads/2021/09/02-21.png);
     background-size: cover;
     background-position: center;
@@ -214,7 +202,7 @@ button:hover {
 }
 
 
-#contato_title {
+.contato-title {
     color: #321F28;
 }
 
