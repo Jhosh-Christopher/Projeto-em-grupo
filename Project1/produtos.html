@@ -30,23 +30,46 @@
         </nav>
     </header>
     <main>
-        <section class="container-text">
+    <section class="container-text">
             <img class="imagens" src="./imagens/fotoproduto1.jpg"
                 alt="Copo de café com 3 camadas cremosas com um ramo bege decorativo">
-            <p class="text-home">
+                <div class="product-container">
+                <h1 class="product-title">Marilu Cream & Pepper:</h1>
+                <p class="text-home">
                 Conheça o nosso produto mais popular, o Marilu Cream & Pepper. Sinta o sabor marcante do café, com três
                 deliciosas camadas cremosas de chocolate, café e creme, com pitadas de pimenta rosa. Indicado para
                 pessoas que preferem um leve toque apimentado.
-            </p>
-        </section>
 
-        <section class="container-text">
-            <p class="text-home"> Que tal um café encorpado e revigorante para o seu fim de tarde? Aprecie o nosso sabor
+            </p>
+            <button class="btn-product" onclick="addToCart()">Comprar</button>
+            </div>
+    </section>
+    <section>
+        <div class="container-text">
+            <div class="product-container">
+                <h1 class="product-title">Marilu Cinnamon:</h1>
+                <p class="text-home">  Que tal um café encorpado e revigorante para o seu fim de tarde? Com uma pitada de canela.  Aprecie o nosso sabor
                 único enquanto as propriedades naturais do café e da pimenta melhoram o seu metabolismo. </p>
+                <button class="btn-product" onclick="addToCart()">Comprar</button>
+            </div>
             <img class="imagens" src="./imagens/fotoproduto2.jpg"
                 alt="Xícara de café cremoso sobre uma mesa, com paisagem diurna com montanhas ao fundo">
-        </section>
+    </section>
 
+    <section class="container-text">
+        <img class="imagens" src="./imagens/aleatorio4.jpg"
+            alt="Copo de café com 3 camadas cremosas com um ramo bege decorativo">
+            <div class="product-container">
+            <h1 class="product-title">Marilu Gourmet:</h1>
+            <p class="text-home">
+                Nosso Café Gourmet Especial é uma verdadeira obra-prima para os amantes de café.
+                Cada xícara é cuidadosamente preparada com grãos de café arábica de origem única,
+                cultivados em fazendas selecionadas. Esses grãos são colhidos à mão e passam por
+                um processo de torrefação artesanal para realçar suas características únicas.
+                </p>
+        <button class="btn-product" onclick="addToCart()">Comprar</button>
+        </div>
+</section>
     </main>
     <footer>
         <div class="rodape">
@@ -54,6 +77,7 @@
         </div>
 
     </footer>
+    <script src="./scripts/addtocart.js"></script>
 </body>
 
 </html>

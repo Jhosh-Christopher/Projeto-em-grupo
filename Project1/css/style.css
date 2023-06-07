@@ -6,6 +6,7 @@ footer {
     background-color: #F3DEBA;
     padding: 20px;
     text-align: center;
+    margin-top: 20px;
 
 }
 
@@ -40,18 +41,6 @@ input {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #cccccc80;
-}
-
-/*botao "Enviar" do formulario*/
-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #321F28;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
 
@@ -113,11 +102,36 @@ button {
     gap: 25px;
 }
 
+.product-title{
+    font-family: 'Ubuntu', sans-serif;
+    color: #C96868;
+}
+
+.product-container{
+    display: flex;
+    flex-direction: column;
+}
+
 .text-home {
     font-family: 'Architects Daughter', cursive;
     width: 420px;
     color: #F3DEBA;
     font-size: 22px;
+}
+
+.btn-product{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    width: 50%;
+    padding: 10px;
+    background-color: #321F28;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
 }
 
 
@@ -148,6 +162,17 @@ button {
 
 .form-group {
     margin-bottom: 20px;
+}
+/*botao "Enviar" do formulario*/
+.btn-form {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #321F28;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 a:hover {

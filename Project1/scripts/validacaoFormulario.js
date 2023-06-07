@@ -90,4 +90,3 @@ function validarFormulario(){
     var telefone = document.getElementById("telefone").value;
     validarTelefone(telefone);
 }
-
