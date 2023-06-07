@@ -8,6 +8,8 @@ footer {
     text-align: center;
 
 }
+
+/*area do texto dentro dos campos do formulario*/
 textarea {
     width: 100%;
     height: 100px;
@@ -16,7 +18,7 @@ textarea {
     border: 2px solid #ccc;
 }
 
-
+/*estilo p/ titulo dos campos no formulario*/
 label {
     font-size: 18px;
     font-weight: bold;
@@ -25,12 +27,14 @@ label {
     margin-bottom: 5px;
 }
 
+/*para mudar a fonte e a cor de texto no formulario tb*/
 span {
     font-family: 'Ubuntu', sans-serif;
     font-size: 24px;
     color: #C96868;
 }
 
+/*estilizacao da área de input do formulario*/
 input {
     width: 100%;
     padding: 10px;
@@ -38,6 +42,7 @@ input {
     border: 1px solid #cccccc80;
 }
 
+/*botao "Enviar" do formulario*/
 button {
     display: block;
     width: 100%;
@@ -49,12 +54,6 @@ button {
     cursor: pointer;
 }
 
-.imagens {
-    width: 450px;
-    border-radius: 10px;
-    border: solid 5px #F3DEBA;
-}
-
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -64,17 +63,13 @@ button {
     border-bottom-right-radius: 15px;
 }
 
-.logo-cafeteria {
-    height: 80px;
-    margin-left: 10px;
-    border-radius: 10px;
-}
-
+/*container p/ menu no header*/
 .menu-container {
     display: flex;
     justify-content: center;
 }
 
+/*menu do header*/
 .menu {
     list-style: none;
     display: flex;
@@ -84,6 +79,7 @@ button {
     gap: 25px;
 }
 
+/*estilizacao dos links de navegacao entre as paginas*/
 .link {
     font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
@@ -91,6 +87,20 @@ button {
     font-size: 25px;
 }
 
+.logo-cafeteria {
+    height: 80px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+/*estilizacao de todas as imagens utilizadas (menos a logo)*/
+.imagens {
+    width: 450px;
+    border-radius: 10px;
+    border: solid 5px #F3DEBA;
+}
+
+/*container utilizado p/ os textos*/
 .container-text {
     display: flex;
     justify-content: center;
@@ -106,25 +116,15 @@ button {
     font-size: 22px;
 }
 
-footer {
-    background-color: #F3DEBA;
+/*estilizacao do formulario: */
+
+.form-text {
+    display: flex;
+    justify-content: center;
     padding: 20px;
-    text-align: center;
-    margin-top: 50px;
-
+    padding-right: 10px;
 }
 
-.rodape {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-.pfooter {
-    color: #C96868;
-    font-size: 14px;
-}
-
-/* css formulário */
 .form-contato {
     background-color: rgba(243, 222, 186, 0.361);
     background-image: url(https://www.imagensempng.com.br/wp-content/uploads/2021/09/02-21.png);
@@ -136,55 +136,16 @@ footer {
     margin: 0 auto;
 }
 
+#contato-title {
+    color: #321F28;
+    margin-bottom: 20px;
+}
 
 .form-group {
     margin-bottom: 20px;
 }
 
-.form-text {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    padding-right: 10px;
-}
-
-textarea {
-    width: 100%;
-    height: 100px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 2px solid #ccc;
-}
-
-
-label {
-    font-size: 18px;
-    font-weight: bold;
-    color: #F3DEBA;
-    display: block;
-    margin-bottom: 5px;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #cccccc80;
-}
-
-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #321F28;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 a:hover {
-
     color: #C96868;
     transition: 0.3s all;
 
@@ -202,22 +163,15 @@ button:hover {
     transition: 0.3s all;
 }
 
+/*footer*/
 
-.contato-title {
-    color: #321F28;
-    margin-bottom: 20px;
+.rodape {
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-span {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 24px;
+/*paragrafo no footer*/
+.pfooter {
     color: #C96868;
-}
-
-.form-text {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    padding-right: 10px;
-
+    font-size: 14px;
 }

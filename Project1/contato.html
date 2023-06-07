@@ -45,8 +45,8 @@
     
     <form class="form-contato">
         
-        <h1 class="contato-title">Contato</h1>
-        
+        <h1 id="contato-title">Contato</h1>
+        <br>
         <div class="form-group">
             <label for="nome">Nome</label>
             <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
@@ -57,14 +57,14 @@
         </div>
         <div class="form-group">
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" name="telefone" placeholder="Digite seu telefone com DDD">
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu telefone (apenas números)">
         </div>
         <div class="form-group">
             <label for="mensagem">Mensagem</label>
             <textarea id="mensagem" name="mensagem" placeholder="Digite sua Mensagem" rows="3"></textarea>
         </div>
         </div>
-        <button type="submit" onclick="validar()">Enviar</button>
+        <button type="submit" onclick="validarFormulario()">Enviar</button>
 
     </form>
     <footer>
