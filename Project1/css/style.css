@@ -54,6 +54,9 @@ button {
     cursor: pointer;
 }
 
+
+/*header*/
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -79,7 +82,7 @@ button {
     gap: 25px;
 }
 
-/*estilizacao dos links de navegacao entre as paginas*/
+/*estilizacao dos links de navegacao entre as paginas no header*/
 .link {
     font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
@@ -92,6 +95,7 @@ button {
     margin-left: 10px;
     border-radius: 10px;
 }
+
 
 /*estilizacao de todas as imagens utilizadas (menos a logo)*/
 .imagens {
@@ -116,6 +120,7 @@ button {
     font-size: 22px;
 }
 
+
 /*estilizacao do formulario: */
 
 .form-text {
@@ -136,7 +141,7 @@ button {
     margin: 0 auto;
 }
 
-#contato-title {
+.contato-title {
     color: #321F28;
     margin-bottom: 20px;
 }
@@ -162,6 +167,7 @@ button:hover {
     color: black;
     transition: 0.3s all;
 }
+
 
 /*footer*/
 
