@@ -14,8 +14,8 @@ function validarNome(nome){
         char = nome.charCodeAt(i);
 
         if ((char != 32) &&              // (espaço) 
-            !(char > 64 && char < 91) && // (A-Z)
-            !(char > 96 && char < 123)){ // (a-z))                   
+            !(char >= 65 && char <= 90) && // (A-Z)
+            !(char >= 97 && char <= 122)){ // (a-z))                   
             alert("Nome inválido, apenas letras");
             return;
         }
@@ -72,7 +72,7 @@ function validarTelefone(telefone){
     for (i = 0; i < telefone.length; i++){
         char = telefone.charCodeAt(i);
 
-        if (!(char > 47 && char < 57)){ // (0-9)
+        if (!(char >= 48 && char <= 57)){ // (0-9)
             alert("Telefone inválido, apenas números");
             return;
         }
